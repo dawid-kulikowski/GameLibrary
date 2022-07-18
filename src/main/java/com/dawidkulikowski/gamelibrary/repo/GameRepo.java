@@ -1,5 +1,8 @@
 package com.dawidkulikowski.gamelibrary.repo;
 
-public interface GameRepo  {
+import com.dawidkulikowski.gamelibrary.model.Game;
+import org.springframework.data.repository.CrudRepository;
+
+public interface GameRepo extends CrudRepository<Game,Integer> {
 
 }
